@@ -5,14 +5,23 @@
                   
   The purpose of the analysis was to look employees at Pewlett-Hackard that are close to retirement.  The first part of the search was identifying those employees born between 1952 and 1955.  The code shown below.
 *SELECT employees.emp_no,
+
 employees.first_name,
+
 employees.last_name,
+
 titles.title, titles.from_date, titles.to_date
+
 INTO retirement_titles
+
 FROM employees
+
 INNER JOIN titles
+
 ON (employees.emp_no = titles.emp_no)
+
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+
 ORDER BY employees.emp_no;
 
 An inner join was performed with the employees and titles table on the titles column.  The primary key was the emp_no.  This created the table retirement_titles with 6 columns.
