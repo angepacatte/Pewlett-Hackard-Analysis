@@ -58,7 +58,10 @@ GROUP BY unique_titles.title
 
 ORDER BY unique_titles.count DESC;
 
-[Screen Shot 2021-12-10 at 10 10 35 AM](https://user-images.githubusercontent.com/85581208/145605197-c98468f2-6502-4e77-b172-2902b08cfacf.png)
+
+
+![image](https://user-images.githubusercontent.com/85581208/145684904-45d9431a-57b4-4cbd-b66f-2c1657ba96bc.png)
+
 
 The last part of the analysis looked at employees eligilble for mentorship.  This only looked at a birth year of 1965.  Not a very big range.  Three different tables were used to create the mentorship_eligibility table.  Two inner joins occure with the dept_emp, employees, and titles tables.  They were joined on the emp_no.
 
