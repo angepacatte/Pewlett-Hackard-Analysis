@@ -1,4 +1,4 @@
-                  # *Pewlett-Hackard-Analysis*
+                  #*Pewlett-Hackard-Analysis*
                   
       ##*Analysis*
      
@@ -99,8 +99,11 @@ ORDER BY employees.emp_no, employees.emp_no ASC;
 ##*Results
 
 -There are 90,398 employees up for retirement in the near future.
--1549 employees were identfied for eligibility for mentorship
--There are 7 different titles that have employees up for retirement.  
+
+-1549 employees were identfied for eligibility for mentorship.
+
+-There are 7 different titles that have employees up for retirement.
+
 -Only 2 were managers thankfully but still lots that hold senior level titles.
 
 
