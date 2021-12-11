@@ -64,20 +64,25 @@ ORDER BY employees.emp_no, employees.emp_no ASC;
 ##*Results
 
 -There are 90,398 employees up for retirement in the near future.
--1549 employees were identfied for eligibility for mentorhsip
+-1549 employees were identfied for eligibility for mentorship
 -There are 7 different titles that have employees up for retirement.  
 -Only 2 were managers thankfully but still lots that hold senior level titles.
 
+
 ##*Summary
+
+There are 90,398 employees that have been identified close to retirement.  That number was calculated in SQL with the code below.  Screenshot shows the result.
+
 
 SELECT COUNT (emp_no)
 FROM unique_titles;
 
 
 
-
 ![Screen Shot 2021-12-10 at 10 24 38 AM](https://user-images.githubusercontent.com/85581208/145607228-637533e2-f1cf-484e-b3b2-8d9cefe14451.png)
 
+
+There are 1549 employees identified for mentorship.  There are plenty of senior staff to cover that group.  In fact more employees could be idenfied for mentorship and help bring up the next group. Just expand the birthdates used in the last query from just 1965 to 1965 to 1967.  Expanding the mentorship program would be very beneficial for the company.
 
 SELECT COUNT (emp_no)
 FROM mentorship_eligibility;
