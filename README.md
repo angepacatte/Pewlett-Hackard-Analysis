@@ -1,6 +1,6 @@
-                  #*Pewlett-Hackard-Analysis*
+                  # *Pewlett-Hackard-Analysis*
                   
-      ##*Analysis*
+      ## *Analysis*
      
                   
   The purpose of the analysis was to look employees at Pewlett-Hackard that are close to retirement.  The first part of the search was identifying those employees born between 1952 and 1955.  The code shown below.
@@ -99,7 +99,7 @@ WHERE (dept_emp.to_date = '9999-01-01')
 	
 ORDER BY employees.emp_no, employees.emp_no ASC;
 
-##*Results
+## *Results
 
 -There are 90,398 employees up for retirement in the near future.
 
@@ -110,7 +110,7 @@ ORDER BY employees.emp_no, employees.emp_no ASC;
 -Only 2 were managers thankfully but still lots that hold senior level titles.
 
 
-##*Summary
+## *Summary
 
 There are 90,398 employees that have been identified close to retirement.  That number was calculated in SQL with the code below.  Screenshot shows the result.
 
